@@ -9,6 +9,22 @@ Official docs [here](https://spiderd.io/docs/index.html)
 
 > To execute, you must have Docker installed on your machine
 
+## From Docker Hub
+
+Run this code:
+```
+docker pull marcoshssilva/custom-spider-mail-server:latest
+docker run -d \
+    --name spider-mail \
+    -p 25:25 \
+    -p 8080:8080 \
+    -p 993:993 \
+    marcoshssilva/custom-spider-mail-server:latest
+```
+
+
+## From clone this repository
+
 Run this script:
 ```
 git clone git@github.com:marcoshssilva/custom-spider-mail.git
