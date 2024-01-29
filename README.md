@@ -1,4 +1,4 @@
-# Custom Spider-MailServer
+# SpiderMailServer Customized
 this is an open-source custom image project by me ([@marcoshssilva](https://github.com/marcoshssilva))
 
 its based on [Spider Mail Archiver](https://spiderd.io/).
