@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   spider-mail:
-    image: marcoshssilva/spidermail-custom:latest
+    image: app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
     restart: on-failure
     ports:
       - 25:25
