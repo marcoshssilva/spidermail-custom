@@ -4,4 +4,4 @@ docker run -d \
     -p 25:25 \
     -p 8080:8080 \
     -p 993:993 \
-    marcoshssilva/custom-spider-mail-server:latest
+    marcoshssilva/spidermail-custom:latest

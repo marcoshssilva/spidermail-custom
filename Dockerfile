@@ -1,4 +1,4 @@
-FROM iredmail/spider:latest
+FROM app-nx.marcoshssilva.com.br/iredmail/spider:latest
 
 COPY certs/localhost.crt /opt/spider/cert.pem
 COPY certs/localhost.key /opt/spider/secret.key
