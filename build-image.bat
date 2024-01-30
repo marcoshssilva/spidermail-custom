@@ -1,1 +1,1 @@
-docker build -t marcoshssilva/custom-spider-mail-server:latest .
+docker build -t marcoshssilva/spidermail-custom:latest .
