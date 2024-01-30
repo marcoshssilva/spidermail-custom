@@ -13,13 +13,13 @@ Official docs [here](https://spiderd.io/docs/index.html)
 
 Run this code:
 ```
-docker pull marcoshssilva/custom-spider-mail-server:latest
+docker pull app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
 docker run -d \
     --name spider-mail \
     -p 25:25 \
     -p 8080:8080 \
     -p 993:993 \
-    marcoshssilva/custom-spider-mail-server:latest
+    app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
 ```
 
 
@@ -39,7 +39,7 @@ sh run-local.sh
 version: '3.3'
 services:
   spider-mail:
-    image: marcoshssilva/custom-spider-mail-server:latest
+    image: app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
     restart: on-failure
     ports:
       - 25:25
