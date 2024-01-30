@@ -1,6 +1,6 @@
 {
 	"admin_emails": [],
-	"archiving_username": "no-reply",
+	"archiving_username": "archive",
 	"archiving_domain": "localhost",
 	"archiving_with_host_ip": true,
 	"license_key": "",
