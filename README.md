@@ -1,8 +1,8 @@
 # SpiderMailServer Customized
-this is an open-source custom image project by me ([@marcoshssilva](https://github.com/marcoshssilva))
+this is a custom image project by me ([@marcoshssilva](https://github.com/marcoshssilva))
 
-its based on [Spider Mail Archiver](https://spiderd.io/).
-Official docs [here](https://spiderd.io/docs/index.html)
+its based on [Spider Mail Archiver](https://spiderd.io/). Official docs [here](https://spiderd.io/docs/index.html)
+
 ---
 
 # How to Start
