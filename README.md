@@ -9,20 +9,6 @@ its based on [Spider Mail Archiver](https://spiderd.io/). Official docs [here](h
 
 > To execute, you must have Docker installed on your machine
 
-## From Docker Hub
-
-Run this code:
-```
-docker pull app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
-docker run -d \
-    --name spider-mail \
-    -p 25:25 \
-    -p 8080:8080 \
-    -p 993:993 \
-    app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
-```
-
-
 ## From clone this repository
 
 Run this script:
@@ -39,7 +25,7 @@ sh run-local.sh
 version: '3.3'
 services:
   spider-mail:
-    image: app-nx.marcoshssilva.com.br/x86-64/marcoshssilva/spidermail-custom:latest
+    image: marcoshssilva/spidermail-custom:latest
     restart: on-failure
     ports:
       - 25:25
